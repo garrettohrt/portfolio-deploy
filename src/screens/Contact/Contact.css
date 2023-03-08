@@ -7,3 +7,14 @@
     letter-spacing: 1px;
     font-size: 1.2rem;
 }
+
+.contact-container a {
+    text-decoration: none;
+    color: var(--light-shades);
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-container a:hover {
+    color: var(--dark-shades);
+    transform: translateY(-5px);
+}
